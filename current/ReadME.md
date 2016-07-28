@@ -6,6 +6,7 @@ This is the newest version of Browser.TF!
 * A simple and nice looking style.
 * A tagging system.
 * Server list loads quickly.
+* Doesn't rely on MySQL.
 
 # Notes
 * Although this offers less features than the old website, the server list loads much faster than the old website.
