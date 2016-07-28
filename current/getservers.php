@@ -14,7 +14,7 @@
 		$filter = $_POST['filter'];
 	}
 	
-	$url = "https://api.steampowered.com/IGameServersService/GetServerList/v1/?limit=" . $maxServers . "&key=94D0309C9AE51FB41FBD86215447959C&filter=" . $filter;
+	$url = "https://api.steampowered.com/IGameServersService/GetServerList/v1/?limit=" . $maxServers . "&key=&filter=" . $filter;
 	
 	$curl = curl_init();
 	curl_setopt_array($curl, array
