@@ -1,0 +1,645 @@
+/* Custom CSS code goes in here... */
+@font-face 
+{
+  font-family: 'tf2Font';
+  src: url('../fonts/tf2build.eot');
+  src: url('../fonts/tf2build.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/tf2build.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+	/* background-color: #2A2725; */
+	color: #ebebeb;
+	font-size: 16px;
+}
+
+#background
+{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: -20;
+	background: #000000 url('/images/background.jpg') no-repeat fixed center;
+	background-size: cover;
+}
+
+#transparent
+{
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	position: fixed;
+	z-index: -10;
+	background: rgba(42, 39, 37, 0.70);
+}
+
+#transparentmobile
+{
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	position: fixed;
+	z-index: -10;
+	background: #171717;
+}
+
+#main
+{
+	position: relative;
+}
+
+#logo
+{
+	font-family: tf2Font;
+	font-size: 300%;
+}
+
+#navbar
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#navbar a
+{
+	text-decoration: none;
+}
+
+#userbar
+{
+	clear: both;
+	float: right;
+	text-align: right;
+	
+}
+
+.useritem
+{
+	list-style-type: none;
+	display: inline;
+	padding-right: 30px;
+}
+
+#navlist
+{
+	/* height: 100px; */
+	/* background-color: #3A3837; */
+}
+
+.navitem
+{
+	display: inline;
+	padding-right: 30px;
+	list-style-type:none;
+	color: #ebebeb;
+	text-decoration: none;
+}
+
+.navitem:hover
+{
+	cursor: pointer;
+	color: #C6C6C6;
+}
+
+.navselected
+{
+	color: #C6C6C6;
+}
+
+#mobile-navbar
+{
+	position: fixed;
+	top: 0px;
+	left: -50%;
+	width: 50%;
+	height: 100%;
+	z-index: 10;
+	background-color: #121110;
+}
+
+#mobile-navlist
+{
+	padding-left: 0px;
+}
+
+.mobile-navitem
+{
+	text-decoration: none;
+}
+
+.mobile-navitem:link
+{
+	color: #ebebeb;
+}
+
+.mobile-navitem:visited
+{
+	color: #ebebeb;
+}
+
+.mobile-navitem:active
+{
+	color: #ebebeb;
+}
+
+.mobile-navitem:hover
+{
+	color: #C6C6C6;
+}
+
+
+#mobile-menu-title
+{
+	padding: 15px;
+}
+
+#page-content
+{
+	/*
+	background-color: #3A3837;
+	border-radius: 2px 2px 2px 2px;
+	border: 1px solid #32302F;
+	*/
+	min-height: 200px;
+	position: relative;
+	padding: 15px;
+}
+
+#footer
+{
+	text-align: center;
+}
+
+#serverstable
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#serverstable, #serverstable th, #serverstable tr
+{
+	border: 1px solid #32302F;
+}
+
+#serverstable td
+{
+	padding: 5px;
+	vertical-align: middle;
+}
+
+#fullserverstable
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#fullserverstable, #fullserverstable th, #fullserverstable tr
+{
+	border: 1px solid #32302F;
+}
+
+#fullserverstable td
+{
+	padding: 5px;
+	vertical-align: middle;
+}
+
+#servers th
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.rowsecondary td
+{
+	background-color: #2A2725;
+}
+
+.button
+{
+	cursor: pointer;
+}
+
+.buttonSuccess
+{
+	background-color: #9C9C00;
+	border-radius: 1px 1px 1px 1px;
+	padding: 5px;
+}
+
+button, input, select, textarea
+{
+	background-color: #2A2725;
+	border: 1px solid #32302F; 
+}
+
+a:link
+{
+	color: #CFA900;
+}
+
+a:visited
+{
+	color: #CFA900;
+}
+
+a:active
+{
+	color: #CFA900;
+}
+
+a:hover
+{
+	color: #B99701;
+}
+
+/* About page */
+.blockTitle
+{
+	text-align: center;
+	padding: 15px;
+	background: rgba(42, 39, 37, 0.95);
+	margin-bottom: 0px;
+	margin-top: 15px;
+	border-bottom: 1px solid #211F1D;
+	font-size: 150%;
+	font-family: tf2Font;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}
+
+.blockContent
+{
+	padding: 15px;
+	background-color: #525252;
+	border-radius: 0px 0px 3px 3px;
+	position: relative;
+	background: rgba(47, 47, 47, 0.90)
+}
+
+.block
+{
+	position: relative;
+}
+
+.server-item
+{
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.server-item-name
+{
+	color: #CFA900;
+}
+
+#userbar
+{
+	width: 100%;
+	position: relative;
+}
+
+#copybutton
+{
+	float: left;
+	clear: left;
+}
+
+/* For custom controls */
+.custom-control 
+{
+	background-color: #2A2725;
+	border: 1px solid #32302F;
+	color: #ebebeb;
+}
+
+.btn-tf2
+{
+	background: linear-gradient(#CFC3AC, #898989);
+}
+
+tr, th, td 
+{ 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+
+#userbar-mobile
+{
+	position: relative;
+}
+
+#filtertable td
+{
+	padding-right: 25px;
+}
+
+/* Servers (Admin) */
+#serversadmin
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#serversadmin td
+{
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#serversadmin tr:hover
+{
+	background-color: #2A2725;
+}
+
+#serversadmin th
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#serversadmin, #serversadmin th, #serversadmin tr
+{
+	border: 1px solid #32302F;
+}
+
+/* Server Requests (Admin) */
+#requestsadmin
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#requestsadmin td
+{
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#requestsadmin tr:hover
+{
+	background-color: #2A2725;
+}
+
+#requestsadmin th
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#requestsadmin, #requestsadmin th, #requestsadmin tr
+{
+	border: 1px solid #32302F;
+}
+
+/* Server Reports (Admin) */
+#reportsadmin
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#reportsadmin td
+{
+	padding: 5px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#reportsadmin tr:hover
+{
+	background-color: #2A2725;
+}
+
+#reportsadmin th
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#reportsadmin, #reportsadmin th, #reportsadmin tr
+{
+	border: 1px solid #32302F;
+}
+
+/* Users (Admin) */
+#usersadmin
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#usersadmin td
+{
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#usersadmin tr:hover
+{
+	background-color: #2A2725;
+}
+
+#usersadmin th
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#usersadmin, #usersadmin th, #usersadmin tr
+{
+	border: 1px solid #32302F;
+}
+
+.custom-disable
+{
+	color: #FF0000;
+	font-size: 150%;
+}
+
+.custom-enable
+{
+	color: #31F500;
+	font-size: 150%;
+}
+
+.custom-connect
+{
+	font-size: 150%;
+}
+
+.server-disabled td
+{
+	background-color: #242222;
+}
+
+/* Stars */
+.custom-fav-star
+{
+	color: #EFFF00;
+	font-size: 150%;
+	top: 3px;
+	cursor: pointer;
+}
+
+.custom-unfav-star
+{
+	color: #0099DF;
+	font-size: 150%;
+	top: 3px;
+	cursor: pointer;
+}
+
+.custom-fav-star-users
+{
+	color: #EFFF00;
+	font-size: 150%;
+	cursor: pointer;
+}
+
+.custom-unfav-star-users
+{
+	color: #0099DF;
+	font-size: 150%;
+	cursor: pointer;
+}
+
+/* Request Status(s) */
+.status-approved td
+{
+	background-color: #0A3F00;
+}
+
+.status-unapproved td
+{
+	background-color: #3F0000;
+}
+
+th
+{
+	background-color: #2A2725;
+}
+
+#statistics
+{
+	font-size: 75%;
+}
+
+#statistics strong
+{
+	color: #CFA900;
+}
+
+.alert-message
+{
+	color: #D42020;
+}
+
+#temp
+{
+	display: none;
+}
+
+.a-image
+{
+	width: 50px;
+	height: 50px;
+}
+
+.announcement
+{
+	background: rgba(52, 52, 52, 0.90);
+	padding: 15px;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 3px;
+}
+
+.a-user
+{
+	font-size: 75%;
+}
+
+.a-image-div
+{
+	border-right: 1px solid #32302F;
+	height: 50px;
+}
+
+.a-info
+{
+}
+
+.formatuser-link
+{
+	text-decoration: none;
+}
+
+.secondary-menu
+{
+	display: none;
+}
+
+.nav-secondary
+{
+	text-align: left;
+	font-size: 75%;
+}
+
+.mobile-secondarylist
+{
+	display: none;
+	background-color: #373432;
+}
+
+.mobile-arrow
+{
+	cursor: pointer;
+}
+
+.mobile-navslot
+{
+	padding: 15px;
+	border-bottom: 1px solid #0D0C0B;
+}
+
+.mobile-navslot:hover
+{
+
+}
+
+.review
+{
+	background: rgba(52, 52, 52, 0.90);
+	padding: 15px;
+	border-radius: 2px 2px 2px 2px;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.review-info
+{
+	border-right: 1px solid #32302F;
+	text-align: center;
+}
+
+.username a
+{
+	text-decoration: none;
+}
+
+#secondary-list
+{
+	min-height: 17px;
+}
