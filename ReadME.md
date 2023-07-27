@@ -1,4 +1,4 @@
-A web-sided server browser for Team Fortress 2. I made this back in 2015/2016 and had the domain `browser.tf` up until mid-2022. Unfortunately, I couldn't afford the domain at the time and lost it. Afterwards, I tried getting it back, but another company had already taken it. Apparently the new company is selling the domain, but they won't reply to anything I send them.
+A web-sided server browser for Team Fortress 2. I made this back in 2015/2016 when I was in High School and had the domain `browser.tf` up until mid-2022. Unfortunately, I couldn't afford the domain at the time and lost it. Afterwards, I tried getting it back, but another company had already taken it. Apparently the new company is selling the domain, but they won't reply to anything I send them.
 
 This website was actively used by quite a few people in the past!
 
